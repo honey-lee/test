@@ -5,7 +5,7 @@ def solution(numbers):
             s = numbers[i] + j
             if s not in answer:
                 answer.append(s)
-    answer.sort()
+    answer.sort(reverse=True)
     return answer
 
 
