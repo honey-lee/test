@@ -1,6 +1,7 @@
 def solution(genres, plays):
     answer = []
     genre_times = {}
+    text = ''
 
     for i in range(len(genres)):
         if genres[i] not in genre_times:
